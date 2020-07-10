@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, #ef3d6d, #7646d1);
+  padding: 50px;
+  margin: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .block {
+    display: grid;
+    grid-gap: 10px;
+  }
+  .menu {
+    display: grid;
+  }
+  .menu ul {
+    display: grid;
+    grid-gap: 5px;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .menu a {
+    background: #ffc600;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+  }
+  img {
+    width: 100%;
+  }
+
+  header img {
+    width: 750px;
+    height: 380px;
+  }
+  #layer {
+    display: flex;
+    margin: 10px;
+    position: relative;
+  }
+  .common {
+    background: #ffc600;
+    position: absolute;
+    padding: 108px;
+    margin-left: 67%;
+    text-align: center;
+  }
+  .project {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .project article {
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+  }
+  .project article a {
+    text-decoration: none;
+    color: dodgerblue;
+  }
+  .about {
+    background: #ffc600;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+  }
+  .info {
+    background: #ffc600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+  }
+  h4,
+  p {
+    padding: 10px;
+  }
+}
